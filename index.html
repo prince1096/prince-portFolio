@@ -4,42 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PrincePortfolio</title>
   </head>
   <body>
-    <nav>
-      <div>
+    <nav class="top-nav" id="nav-id">
+      <div class="home" id="divhome">
         <a href="index.html">Prince raj</a>
       </div>
 
-      <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Blogs</li>
+      <ul class="nav-list" id="nav-list-id">
+        <li class="small-list, home-list" id="home-list">Home</li>
+        <li class="small-list, projects-list" id="projects-list">Projects</li>
+        <li class="small-list, blogs-list" id="blogs-list">Blogs</li>
       </ul>
     </nav>
 
-    <div>
-      <div>
+    <div class="main-div">
+      <div class="intro-div" id="intro-div">
         <img src="images/coding.svg" alt="" />
-        <h1>Hello, I'm Prince Raj</h1>
-        <p>I am a web developer and coding is my passion</p>
+        <h1 class="head-intro" id="head-intro">Hello, I'm Prince Raj</h1>
+        <p class="intro-p" id="intro-p">
+          I am a <span class="span-bold">Web Developer</span>and coding is my
+          passion
+        </p>
       </div>
 
-      <div>
-        <section>
+      <div class="mid-div" id="mid-div">
+        <section
+          class="all-section, technology-section"
+          id="technology-section"
+        >
           <h1>Technology</h1>
           <p>
             I am familier with HTML, CSS, javaScript, Nodejs, Reactjs, sql,
             java, BootStrap, tailwindCss
           </p>
         </section>
-        <section>
+        <section class="all-section, project-section" id="project-section">
           <h1>Projects</h1>
           <p>Some of my project hosted online. I am working on some more</p>
           <a href="/">See My Projects</a>
         </section>
-        <section>
+        <section class="all-section, blog-section" id="blog-section">
           <h1>Blogs</h1>
           <p>
             I love to share my technical and non-technical journey through
@@ -49,9 +55,10 @@
         </section>
       </div>
 
-      <footer>
-        <p>© Prince Raj</p>
-        <div>
+      <footer class="low-footer" id="low-footer">
+        <p class="copyright">© Prince Raj</p>
+        <div class="social-div" id="social-div">
+          <p>Social Handle</p>
           <a href="https://www.linkedin.com/in/prince-raj-a11444126/"
             ><img src="images/linkedin.jpg" alt=""
           /></a>
