@@ -84,7 +84,7 @@ home-link {
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  width: 25%;
+  text-align: center;
 }
 
 .intro-p {
@@ -93,7 +93,7 @@ home-link {
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  width: 18%;
+  text-align: center;
 }
 
 .technology-section {
@@ -194,4 +194,10 @@ footer {
 
 .img-last {
   border-radius: 20px;
+}
+
+/* Projects style  */
+
+.project-ul {
+  list-style: none;
 }
