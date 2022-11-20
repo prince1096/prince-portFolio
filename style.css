@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fb7185;
+  --secondary-color: rgb(227, 222, 222);
+}
+
+/* some padding is given by browser only so make it zero */
+.low-footer {
+  padding-inline-start: 0px;
+}
+
+home-link {
+  text-decoration: none;
+  font: 30px;
+}
+/* 
+.top-nav {
+  height: 100px;
+  padding: 3%;
+  width: auto;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  text-align: left;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.intro-div {
+  height: 300px;
+  width: auto;
+}
+
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.intro-div {
+  height: 300px;
+  width: auto;
+  font-size: 24px;
+  color: var(--primary-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+all-section {
+  height: 300px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  height: 800px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* Fresh Start */
+
+.top-nav {
+  height: 100px;
+  padding: 5px;
+  margin: 0 35px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: auto;
+  background-color: var(--primary-color);
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.home-link {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.nav-link {
+  color: white;
+  padding: 3px;
+  margin: 5px;
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.small-list {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.head-intro {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.intro-p {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  width: 18%;
+}
+
+.technology-section {
+  height: 300px;
+  margin: 20px 40px;
+  border-radius: 50px;
+
+  background-color: var(--secondary-color);
+  /* border: none; */
+  font-size: 30px;
+  text-align: center;
+}
+
+.project-section {
+  background-color: var(--secondary-color);
+  margin: 20px 40px;
+  border-radius: 50px;
+  height: 300px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blog-section {
+  height: 300px;
+  margin: 20px 40px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.tech {
+  padding: 15px;
+}
+
+.text {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.project-link {
+  background-color: var(--primary-color);
+  border: 1px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.blogs-link {
+  background-color: var(--primary-color);
+  border: 1px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.social-div {
+  height: 100px;
+  text-align: center;
+}
+
+.social-div p {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+footer {
+  height: 200px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin: 0 35px;
+  margin-top: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.link {
+  padding: 10px;
+}
