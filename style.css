@@ -201,3 +201,8 @@ footer {
 .project-ul {
   list-style: none;
 }
+
+.go-link {
+  margin: 0 70px;
+  padding: 5px 15px;
+}
