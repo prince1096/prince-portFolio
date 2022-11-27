@@ -211,3 +211,16 @@ footer {
   margin: 45px 25px;
   padding: 10px;
 }
+
+/* first blog */
+
+.blog-container {
+  text-align: center;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+.blog-para-engine {
+  text-align: left;
+}
