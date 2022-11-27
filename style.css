@@ -126,6 +126,12 @@ home-link {
   text-align: center;
 }
 
+.blog-section-list {
+  height: 250px;
+  margin: 35px 50px;
+  font-size: 25px;
+}
+
 .tech {
   padding: 15px;
 }
@@ -133,6 +139,19 @@ home-link {
 .text {
   font-size: 30px;
   margin-bottom: 30px;
+}
+
+.tech-blog {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.read-blog-button {
+  border-radius: 1px;
+}
+
+.date-blog {
+  font-size: 16px;
 }
 
 .project-link {
@@ -152,7 +171,7 @@ home-link {
   font-weight: bold;
   border-radius: 30px;
   color: white;
-  padding: 10px;
+  padding: 15px;
   font-size: 22px;
 }
 
