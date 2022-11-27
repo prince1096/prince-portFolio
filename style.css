@@ -214,13 +214,54 @@ footer {
 
 /* first blog */
 
-.blog-container {
-  text-align: center;
+.blog-container-engine,
+.blog-container-astro {
+  text-align: justify;
   max-width: 1000px;
   display: block;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 
 .blog-para-engine {
   text-align: left;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.blog-heading-engine {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+  padding: 7px;
+  text-align: center;
+}
+
+.font-size-engine,
+.font-size-astro {
+  font-size: 18px;
+  margin: 15px;
+  padding: 7px;
+  margin-top: 0;
+}
+
+.second-heading-engine {
+  text-align: left;
+  margin: 0 15px;
+  padding: 7px;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.blog-project-name {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.writer-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
 }
