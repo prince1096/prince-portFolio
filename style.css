@@ -97,7 +97,7 @@ home-link {
 }
 
 .technology-section {
-  height: 300px;
+  height: 200px;
   margin: 20px 40px;
   border-radius: 50px;
 
@@ -111,14 +111,14 @@ home-link {
   background-color: var(--secondary-color);
   margin: 20px 40px;
   border-radius: 50px;
-  height: 300px;
+  height: 280px;
   font-size: 30px;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .blog-section {
-  height: 300px;
+  height: 280px;
   margin: 20px 40px;
   border-radius: 50px;
   font-size: 30px;
@@ -134,10 +134,11 @@ home-link {
 
 .tech {
   padding: 15px;
+  font-size: 30px;
 }
 
 .text {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
